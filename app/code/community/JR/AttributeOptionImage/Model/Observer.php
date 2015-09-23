@@ -15,6 +15,7 @@ class JR_AttributeOptionImage_Model_Observer
             ->addJs('mage/adminhtml/browser.js')
             ->addJs('prototype/window.js')
             ->addItem('js_css', 'prototype/windows/themes/default.css')
-            ->addItem('js_css', 'prototype/windows/themes/magento.css');
+            ->addCss('lib/prototype/windows/themes/magento.css');
     }
+    
 }
